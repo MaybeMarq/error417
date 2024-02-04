@@ -36,12 +36,12 @@ async function main() {
   // console.log(apartment)
 
   //gets users and posts 
-  // const usersWithPosts = await prisma.apartment.findMany({
-  //   include: {
-  //     posts: true,
-  //   },
-  // })
-  // console.dir(usersWithPosts, { depth: null })
+  const usersWithPosts = await prisma.apartment.findMany({
+    include: {
+      posts: true,
+    },
+  })
+  console.dir(usersWithPosts, { depth: null })
 }
 
 main()
