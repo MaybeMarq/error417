@@ -1,5 +1,8 @@
-## Next.js App Router Course - Starter
+# hackviolet-error417
+This project is for HackViolet Hackathon.
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+## About
+We are set out to improve the off-campus housing search process. We understand that safety is a big part of the housing search process. We created a website that allows renters to submit reviews about their where they live to help those in the future searching for a safe home during their college career. 
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## Team Members
+Shreya Thothathri, Jasser Darguech, Marquis Skinner
