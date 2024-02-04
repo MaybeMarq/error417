@@ -10,8 +10,9 @@ export default function Page() {
       <div className="justify-center flex h-30 shrink-0 items-end rounded-lg bg-gradient-to-r from-purple-600 to-orange-600 p-4 md:h-30">
         <p className={`${roboto.className} text-xl text-white md:text-5xl md:leading-normal`}>The Hub</p>
       </div>
-
-
+      <p>
+        testings
+      </p>
     </main>
   );
 }

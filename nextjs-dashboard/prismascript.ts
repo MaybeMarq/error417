@@ -13,27 +13,27 @@ async function main() {
   // console.log(apartment)
 
   //gets all of the current users
-  // const apartments = await prisma.apartment.findMany() 
-  // console.log(apartments)
+  const apartments = await prisma.apartment.findMany()
+  console.log(apartments)
 
 
   //creates both apartment and post at once
-  const apartment = await prisma.apartment.create({
-    data: {
-      name: 'Vue',
-      location: '1902 Research Center Dr, Blacksburg, VA',
-      posts: {
-        create: {
-          title: 'Good Apartment',
-          user: "lovingthevue",
-          overall: 4.5,
-          content: "Liked living there",
-          published: true
-        },
-      },
-    },
-  })
-  console.log(apartment)
+  // const apartment = await prisma.apartment.create({
+  //   data: {
+  //     name: 'Vue',
+  //     location: '1902 Research Center Dr, Blacksburg, VA',
+  //     posts: {
+  //       create: {
+  //         title: 'Good Apartment',
+  //         user: "lovingthevue",
+  //         overall: 4.5,
+  //         content: "Liked living there",
+  //         published: true
+  //       },
+  //     },
+  //   },
+  // })
+  // console.log(apartment)
 
   //gets users and posts 
   // const usersWithPosts = await prisma.apartment.findMany({
