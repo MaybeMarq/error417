@@ -3,7 +3,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import {roboto} from '@/app/ui/fonts';
 import {lusitana} from '@/app/ui/fonts';
-import {motion, AnimatePresence} from "framer-motion";
+//import {motion, AnimatePresence} from "framer-motion";
 
 import Image from 'next/image';
 
