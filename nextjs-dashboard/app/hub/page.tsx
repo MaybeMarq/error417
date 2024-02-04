@@ -16,7 +16,7 @@ export default function Page() {
           {/* <div className="flex flex-col items-center md:flex-row md:items-start"> Use flexbox */}
           {/* Image Component */}
           <Image
-            src="/hubimage.jpg"
+            src="/hub.jpg"
             width={500}
             height={380}
             className="hidden md:block"

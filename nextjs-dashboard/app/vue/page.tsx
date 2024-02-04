@@ -16,14 +16,14 @@ export default function Page() {
           {/* <div className="flex flex-col items-center md:flex-row md:items-start"> Use flexbox */}
           {/* Image Component */}
           <Image
-            src="/alightPic.jpg"
+            src="/vue.jpg"
             width={1000}
             height={760}
             className="hidden md:block"
             alt="Screenshots of the dashboard project showing desktop version"
           />
           <p className={`${roboto.className} text-xl text-black md:text-xl md:leading-normal mt-4 md:mt-0 md:ml-4`}>
-            Contact information: (540) 684-1671
+            Contact information: (540) 552-6000
           </p>
 
 

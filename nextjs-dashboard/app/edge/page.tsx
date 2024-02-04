@@ -23,7 +23,7 @@ export default function Page() {
             alt="Screenshots of the dashboard project showing desktop version"
           />
           <p className={`${roboto.className} text-xl text-black md:text-xl md:leading-normal mt-4 md:mt-0 md:ml-4`}>
-            Contact information: (540) 684-1671
+            Contact information: (540) 552-3343
           </p>
 
 
